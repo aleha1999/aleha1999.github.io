@@ -1,0 +1,80 @@
+@media (max-width: 600px), (orientation: portrait) {
+    .section {
+        width: 95%;
+    }
+
+    .landing-page .content {
+        width: 90%;
+    }
+
+    .project .body {
+        width: 100%;
+    }
+
+    #contact {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    #contact .content {
+        width: 95% !important;
+        max-width: 95%;
+        margin: 0;
+    }
+
+    #contact .contact {
+        width: 95%;
+        padding: 0;
+    }
+
+    nav {
+        width: 100%;
+        left: 0;
+        margin: 0;
+        text-align: left;
+        background: white;
+        color: #333333;
+        height: 100vh;
+        transform: translateX(-100%);
+        transition-duration: .25s;
+        font-size: 3em;
+        text-align: center;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    nav.scroll {
+        background: white;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    nav.show {
+        transform: translateX(0);
+    }
+
+    #experience .body {
+        grid-column: 1;
+        text-align: center;
+    }
+    
+    #experience .meta {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    #menu {
+        transform: translateX(0);
+    }
+}
