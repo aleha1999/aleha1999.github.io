@@ -7,6 +7,10 @@
         width: 90%;
     }
 
+    .landing-page {
+        font-size: 1.5em;
+    }
+
     .project .body {
         width: 100%;
     }
@@ -76,5 +80,13 @@
 
     #menu {
         transform: translateX(0);
+    }
+
+    #education {
+        font-size: 1.3em;
+    }
+
+    .section h1:nth-child(1) {
+        font-size: 5em;
     }
 }
