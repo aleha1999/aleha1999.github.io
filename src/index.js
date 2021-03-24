@@ -22,7 +22,7 @@ anime({
 });
 
 window.addEventListener('load', () => {
-    console.log("Hey");
+    document.querySelector('.loader').classList.add('hidden');
 });
 
 document.addEventListener('scroll', () => {

@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
     mode: 'production',
@@ -18,7 +19,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Alexander Hansen',
             template: './src/index.pug'
-        })
+        }),
+        new BundleAnalyzerPlugin()
     ],
     module: {
         rules: [
@@ -38,7 +40,7 @@ module.exports = {
             {
                 test: /\.pug$/,
                 use: [
-                    'pug-plain-loader'
+                    'pug-loader',
                 ]
             }
         ]
