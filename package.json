@@ -14,8 +14,6 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.1",
     "animejs": "^3.2.0",
-    "pug": "^3.0.0",
-    "pug-loader": "^2.4.0",
     "scroll-to-element": "^2.0.3"
   },
   "devDependencies": {
@@ -23,6 +21,8 @@
     "css-loader": "^3.6.0",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.1.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",

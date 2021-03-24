@@ -21,6 +21,10 @@ anime({
     delay: anime.stagger(50, {start: 500})
 });
 
+window.addEventListener('load', () => {
+    console.log("Hey");
+});
+
 document.addEventListener('scroll', () => {
     if(window.scrollY > 100)
         document.querySelector('nav').classList.add('scroll');
