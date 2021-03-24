@@ -1,7 +1,21 @@
 import './style.css';
 import './mobile.css';
 import anime from 'animejs/lib/anime.es.js';
-import '@fortawesome/fontawesome-free/js/all';
+// Font Awesome imports... send help
+import {faDatabase} from '@fortawesome/free-solid-svg-icons/faDatabase';
+import {faGlobe} from '@fortawesome/free-solid-svg-icons/faGlobe';
+import {faCode} from '@fortawesome/free-solid-svg-icons/faCode'
+
+import {faAngular} from '@fortawesome/free-brands-svg-icons/faAngular';
+import {faNodeJs} from '@fortawesome/free-brands-svg-icons/faNodeJs';
+import {faNode} from '@fortawesome/free-brands-svg-icons/faNode';
+import {faPython} from '@fortawesome/free-brands-svg-icons/faPython';
+
+import {library, dom} from '@fortawesome/fontawesome-svg-core';
+
+library.add(faDatabase, faGlobe, faCode, faAngular, faNodeJs, faNode, faPython);
+
+dom.watch();
 
 var scrollTo = require('scroll-to-element');
 
