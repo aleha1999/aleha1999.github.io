@@ -30,10 +30,10 @@ document.addEventListener('scroll', () => {
 
 document.querySelectorAll("nav ul li a").forEach((e, i) => {
     e.addEventListener("click", (e) => {
-        if(e.srcElement.getAttribute('href')[0]=="#")
+        if(e.target.getAttribute('href')[0]=="#")
             e.preventDefault();
-        history.replaceState(null, null, e.srcElement.getAttribute('href'));
-        scrollTo(e.srcElement.getAttribute('href'), {
+        history.replaceState(null, null, e.target.getAttribute('href'));
+        scrollTo(e.target.getAttribute('href'), {
             offset:0,
             ease:'inOutCube',
             duration: 1500
