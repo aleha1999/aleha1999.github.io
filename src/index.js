@@ -37,6 +37,7 @@ anime({
 
 window.addEventListener('load', () => {
     document.querySelector('.loader').classList.add('hidden');
+    pageLoaded = true;
 });
 
 document.addEventListener('scroll', () => {
