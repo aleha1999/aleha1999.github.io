@@ -4,7 +4,8 @@ import anime from 'animejs/lib/anime.es.js';
 // Font Awesome imports... send help
 import {faDatabase} from '@fortawesome/free-solid-svg-icons/faDatabase';
 import {faGlobe} from '@fortawesome/free-solid-svg-icons/faGlobe';
-import {faCode} from '@fortawesome/free-solid-svg-icons/faCode'
+import {faCode} from '@fortawesome/free-solid-svg-icons/faCode';
+import {faBars} from '@fortawesome/free-solid-svg-icons/faBars';
 
 import {faAngular} from '@fortawesome/free-brands-svg-icons/faAngular';
 import {faNodeJs} from '@fortawesome/free-brands-svg-icons/faNodeJs';
@@ -13,7 +14,7 @@ import {faPython} from '@fortawesome/free-brands-svg-icons/faPython';
 
 import {library, dom} from '@fortawesome/fontawesome-svg-core';
 
-library.add(faDatabase, faGlobe, faCode, faAngular, faNodeJs, faNode, faPython);
+library.add(faDatabase, faGlobe, faCode, faAngular, faNodeJs, faNode, faPython, faBars);
 
 dom.watch();
 
