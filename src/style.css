@@ -332,7 +332,7 @@ nav ul li:hover {
 
 #contact {
     text-align: center;
-    background: linear-gradient(45deg, #000000, #888888) ;
+    background: linear-gradient(#1e3b57, #2ac568);
     width: 100%;
     min-height: 100vh;
     padding: 100px;
@@ -409,6 +409,6 @@ footer {
     width: 100%;
     padding: 50px;
     box-sizing: border-box;
-    background: #234b6c;
+    background: #192025;
     color:white;
 }
